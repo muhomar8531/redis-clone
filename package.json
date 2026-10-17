@@ -1,0 +1,16 @@
+{
+  "name": "mini-redis-ts",
+  "version": "1.0.0",
+  "description": "Minimal Redis clone in TypeScript speaking RESP2 over TCP",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "node --watch src/index.ts",
+    "test": "node --test test/server.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
